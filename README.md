@@ -1,6 +1,11 @@
 # java-coderbytechallenges
 Code solutions in Java for programming challenges of "coderbyte" webpage.
 Sorted by my own scale of diffulty. The resolution time matters.
+Easy: CheckNums, TimeConvert, SimpleAdding, FirstFactorial, FirstReverse, AlphabetSoup.
+Easy-Medium: SimpleSymbols, LetterChanges, LetterCapitalize, LongestWord, QuestionsMarks.
+Medium-Hard: VowelSquare, ScaleBalancing, PentagonalNumber.
+Hard: EightQueens, ChessboardTraveling, ClosestEnemyII, KaprekarsConstant.
+Very Hard: CorrectPath, MaximalSquare.
 
 # CheckNums
 Using the Java language, have the function CheckNums(num1,num2) take both parameters being passed and return the string true if num2 is greater than num1, otherwise return the string false. If the parameter values are equal to each other then return the string -1. 
@@ -189,7 +194,7 @@ Output:"3,6"
 Input:"3.4,2.7.7"
 Output:"not possible"
 
-# Pentagonal Number
+# PentagonalNumber
 Using the Java language, have the function PentagonalNumber(num) read num which will be a positive integer and determine how many dots exist in a pentagonal shape around a center dot on the Nth iteration. For example, in the image below you can see that on the first iteration there is only a single dot, on the second iteration there are 6 dots, on the third there are 16 dots, and on the fourth there are 31 dots.
 
 Your program should return the number of dots that exist in the whole pentagon on the Nth iteration. 
