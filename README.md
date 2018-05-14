@@ -8,7 +8,9 @@ Using the Java language, have the function CheckNums(num1,num2) take both parame
 Input1: 3
 Input2: 122
 Output: "true"
+
 +++
+
 Input1: 67
 Input2: 67
 Output: "-1"
@@ -18,7 +20,9 @@ Using the Java language, have the function TimeConvert(num) take the num paramet
 
 Input:126
 Output:"2:6"
+
 +++
+
 Input:45
 Output:"0:45"
 
@@ -27,7 +31,9 @@ Using the Java language, have the function SimpleAdding(num) add up all the numb
 
 Input:12
 Output:78
+
 +++
+
 Input:140
 Output:9870
 
@@ -36,7 +42,9 @@ Using the Java language, have the function FirstFactorial(num) take the num para
 
 Input:4
 Output:24
+
 +++
+
 Input:8
 Output:40320
 
@@ -45,7 +53,9 @@ Using the Java language, have the function FirstReverse(str) take the str parame
 
 Input:"coderbyte"
 Output:"etybredoc"
+
 +++
+
 Input:"I Love Code"
 Output:"edoC evoL I"
 
@@ -54,7 +64,9 @@ Using the Java language, have the function AlphabetSoup(str) take the str string
 
 Input:"coderbyte"
 Output:"bcdeeorty"
+
 +++
+
 Input:"hooplah"
 Output:"ahhloop"
 
@@ -63,13 +75,19 @@ Using the Java language, have the function SimpleSymbols(str) take the str param
 
 Input:"+f+e+d+"
 Output:"true"
+
 +++
+
 Input:"+d+=3=+s+"
 Output:"false"
+
 +++
+
 Input:"+d+==+s+"
 Output:"true"
+
 +++
+
 Input:"f++d+"
 Output:"false"
 
@@ -78,16 +96,25 @@ Using the Java language, have the function LetterChanges(str) take the str param
 
 Input:"hello+3"
 Output:"Ifmmp+3"
+
 +++
+
 Input:"fun times!"
 Output:"gvO Ujnft!"
+
++++
+
+Input:"Welcome to the zoo"
+Output:"Xfmdpnf Up UIf App"
 
 # LetterCapitalize
 Using the Java language, have the function LetterCapitalize(str) take the str parameter being passed and capitalize the first letter of each word. Words will be separated by only one space.
 
 Input:"hello world"
 Output:"Hello World"
+
 +++
+
 Input:"i ran there"
 Output:"I Ran There"
 
@@ -96,7 +123,9 @@ Using the Java language, have the function LongestWord(sen) take the sen paramet
 
 Input:"fun&!! time"
 Output:"time"
+
 +++
+
 Input:"I love dogs"
 Output:"love"
 
@@ -107,10 +136,14 @@ For example: if str is "arrb6???4xxbl5???eee5" then your program should return t
 
 Input:"aa6?9"
 Output:"false"
+
 +++
+
 Input:"acc?7??sss?3rr1??????5"
 Output:"true"
+
 +++
+
 Input:"acc?8??sss?3rr1??????5"
 Output:"false"
 
@@ -127,7 +160,9 @@ Within this matrix there is a 2x2 square of vowels starting in the second row an
 
 Input:"aqrst,ukaei,ffooo"
 Output:"1-2"
+
 +++
+
 Input:"gg,ff"
 Output:"not found"
 
@@ -138,13 +173,19 @@ There will only ever be one unique solution and the list of available weights wi
 
 Input:"5.9,1.2.6.7"
 Output:"6,2"
+
 +++
+
 Input:"3.4,1.2.7.7"
 Output:"1"
+
 +++
+
 Input:"13.4,1.2.3.6.14"
 Output:"3,6"
+
 +++
+
 Input:"3.4,2.7.7"
 Output:"not possible"
 
@@ -157,7 +198,9 @@ Hard challenges are worth 15 points and you are not timed for them.
 
 Input:2
 Output:6
+
 +++
+
 Input:5
 Output:51
 
@@ -168,8 +211,14 @@ For example: if strArr is ["(2,1)", "(4,2)", "(6,3)", "(8,4)", "(3,5)", "(1,6)",
 
 Input:"2.1,4.3,6.3,8.4,3.4,1.6,7.7,5.8"
 Output:"2.1"
+
++++
+
 Input:"2.1,5.3,6.3,8.4,3.4,1.8,7.7,5.8"
 Output:"5.3"
+
++++
+
 Input:"2.1,4.2,6.3,8.4,3.5,1.6,7.7,5.8"
 Output:"true"
 
@@ -178,7 +227,9 @@ Using the Java language, have the function ChessboardTraveling(str) read str whi
 
 Input:"(1 1)(3 3)"
 Output:6
+
 +++
+
 Input:"(2 2)(4 3)"
 Output:3
 
@@ -197,7 +248,9 @@ For this input your program should return 2 because the closest enemy (2) is 2 s
 
 Input:"000,100,200"
 Output:1
+
 +++
+
 Input:"0000,2010,0000,2002"
 Output:2
 
@@ -209,7 +262,9 @@ Sample Test Cases
 
 Input:2111
 Output:5
+
 +++
+
 Input:9831
 Output:7
 
@@ -220,7 +275,9 @@ For example: if str is "r?d?drdd" then your program should output the final corr
 
 Input:"???rrurdr?"
 Output:"dddrrurdrd"
+
 +++
+
 Input:"drdr??rrddd?"
 Output:"drdruurrdddd"
 
@@ -241,6 +298,8 @@ Sample Test Cases
 
 Input:"0111,1111,1111,1111"
 Output:9
+
 +++
+
 Input:"0111,1101,0111"
 Output:1
