@@ -1,10 +1,15 @@
 # java-coderbytechallenges
 Code solutions in Java for programming challenges of "coderbyte" webpage.
 Sorted by my own scale of diffulty. The resolution time matters.
+
 Easy: CheckNums, TimeConvert, SimpleAdding, FirstFactorial, FirstReverse, AlphabetSoup.
+
 Easy-Medium: SimpleSymbols, LetterChanges, LetterCapitalize, LongestWord, QuestionsMarks.
+
 Medium-Hard: VowelSquare, ScaleBalancing, PentagonalNumber.
+
 Hard: EightQueens, ChessboardTraveling, ClosestEnemyII, KaprekarsConstant.
+
 Very Hard: CorrectPath, MaximalSquare.
 
 # CheckNums
