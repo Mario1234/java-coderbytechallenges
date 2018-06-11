@@ -11,36 +11,20 @@ public class KaprekarsConstantJ {
     public static int KaprekarsConstant(int num){
         int pasos = 0;
         while(num!=6174){
+            List<String> listaCaracteres = new ArrayList<String>();
             String s_numero = ""+num;
-            //encuentra los digitos repetidos
-            String expresionRepes = "((.)\\2{1,})";
-            Pattern pattern = Pattern.compile(expresionRepes);
-            Matcher matcher = pattern.matcher(s_numero);
-            List<String> repetidos = new ArrayList<String>();
-            //guarda los grupos de digitos repetidos
-            while (matcher.find()) {
-                repetidos.add(matcher.group());
-            }   
-            //guarda una lista de los digitos repetidos, uno de cada
-            ArrayList<String> listaSinRepes = new ArrayList<String>();
-            for(String repe: repetidos){//repe es del estilo "111"
-                listaSinRepes.add(""+repe.charAt(0));//cogemos el primer caracter solo
-            }
-            //quita los digitos repetidos de la cadena s_numero
-            s_numero = s_numero.replaceAll(expresionRepes,"");
-            //aniade a la lista sin repes los digitos que quedan en la cadena s_numero
             for(int i=0;i<s_numero.length();i++){
-                listaSinRepes.add(""+s_numero.charAt(i));
+                listaCaracteres.add(""+s_numero.charAt(i));
             }
             //padding
-            int cantidadCeros = 4-listaSinRepes.size();
+            int cantidadCeros = 4-listaCaracteres.size();
             for(int i=0;i<cantidadCeros;i++){
-                listaSinRepes.add("0");
+                listaCaracteres.add("0");
             }
-            Collections.sort(listaSinRepes);//ordenado ascendente
-            List<String> invertida = new ArrayList<>(listaSinRepes);
+            Collections.sort(listaCaracteres);//ordenado ascendente
+            List<String> invertida = new ArrayList<>(listaCaracteres);
             Collections.reverse(invertida);//ordenado descendente
-            String num1 = String.join("", listaSinRepes);
+            String num1 = String.join("", listaCaracteres);
             String num2 = String.join("", invertida);
             System.out.println(num1+" "+num2);
             int n1 = Integer.parseInt(num1);
